@@ -1,6 +1,6 @@
 export default () => `
 <footer>
-<div class="container">
+  <div class="container">
       <div style="text-align:center">
         <h2>Contact Us</h2>
         <p>Please leave your feedback, or tell me how I did:</p>
@@ -27,12 +27,7 @@ export default () => `
       </div>
     </div>
 
-
-
-
-
-  
-    <fieldset id="fs-frm-inputs">
+<fieldset id="fs-frm-inputs">
       <label for="full-name">Full Name</label>
       <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
       <label for="email-address">Email Address</label>
@@ -45,4 +40,4 @@ export default () => `
   </form>
 
 
-</footer>`
+</footer>`;
