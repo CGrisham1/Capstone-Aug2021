@@ -20,14 +20,18 @@ export default () => `
             <option value="usa">USA</option>
           </select>
           <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="What are your thoughts.." style="height:170px"></textarea>
+          <textarea id="subject" name="subject" placeholder="What are your thoughts" style="height:170px"></textarea>
           <input type="submit" value="Submit">
         </form>
       </div>
     </div>
-  </div>
+  </div>`;
 
-<fieldset id="fs-frm-inputs">
+
+
+
+//Extra Contact Form!!!!!
+{/* <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
     <label for="email-address">Email Address</label>
@@ -38,4 +42,4 @@ export default () => `
   </fieldset>
   <input type="submit" value="Submit">
 </form>
-</footer>`;
+</footer>`; */}

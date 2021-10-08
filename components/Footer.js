@@ -1,2 +1,2 @@
 export default () => `
-<h1>Hello</h1>`
+<h4>Chameleon Stories 2021</h4>`

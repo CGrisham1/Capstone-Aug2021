@@ -1,2 +1,3 @@
 export default () => `
-<h1>Header</h1>`
+<div id="h1">
+<h1>Chameleon Stories</h1>`
