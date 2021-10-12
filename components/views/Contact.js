@@ -1,5 +1,5 @@
-export default () => `
-<footer>
+export default (st) => `
+
 <div class="container">
     <div style="text-align:center">
       <h2>Contact Us</h2>
@@ -30,16 +30,3 @@ export default () => `
 
 
 
-//Extra Contact Form!!!!!
-{/* <fieldset id="fs-frm-inputs">
-    <label for="full-name">Full Name</label>
-    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-    <label for="email-address">Email Address</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="Enter your email here" required="">
-    <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="Enter message here" required=""></textarea>
-    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-  </fieldset>
-  <input type="submit" value="Submit">
-</form>
-</footer>`; */}

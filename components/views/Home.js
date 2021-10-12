@@ -4,4 +4,9 @@ const kelvinToFahrenheit = kelvinTemp =>
 export default (st) => `<h3>
 Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels
 like ${kelvinToFahrenheit(st.weather.feelsLike)}F
-</h3>`;
+</h3>
+`;
+
+
+// in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels
+// like ${kelvinToFahrenheit(st.weather.feelsLike)}F

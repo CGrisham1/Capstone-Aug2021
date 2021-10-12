@@ -1,3 +1,5 @@
-export default () => `
-<div id="h1">
-<h1>Chameleon Stories</h1>`
+export default (st) => `
+<header>
+  <h1> ${st.header}</h1>
+</header>
+`;
