@@ -4,10 +4,10 @@ body {
 
 #top > h1 {
   text-align: center;
-  background-color: aliceblue;
+  background-color: aliceblue
   margin: 8rem;
-  
-  
+
+
 }
 
 ul {
@@ -41,7 +41,7 @@ ul {
 * {
     box-sizing: border-box;
   }
-  
+
   /* Style inputs for my Contact Us Section */
   input[type=text], select, textarea {
     width: 100%;
@@ -51,7 +51,7 @@ ul {
     margin-bottom: 16px;
     resize: vertical;
   }
-  
+
   input[type=submit] {
     background-color: #04AA6D;
     color: white;
@@ -59,18 +59,18 @@ ul {
     border: none;
     cursor: pointer;
   }
-  
+
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
+
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
     background-color: teal;
     padding: 10px;
   }
-  
+
   /* Create two columns that float next to eachother */
   .column {
     float: left;
@@ -78,14 +78,14 @@ ul {
     margin-top: 6px;
     padding: 20px;
   }
-  
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
+
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
