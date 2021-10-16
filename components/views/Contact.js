@@ -1,5 +1,7 @@
 export default (st) => `
 
+
+
 <div class="container">
     <div style="text-align:center">
       <h2>Contact Us</h2>
@@ -25,8 +27,19 @@ export default (st) => `
         </form>
       </div>
     </div>
-  </div>`;
+  </div>
+  
+  <h4>This is a Demo Form</h4>
+  
+  
+ 
+ 
 
+
+
+
+
+  `;
 
 
 

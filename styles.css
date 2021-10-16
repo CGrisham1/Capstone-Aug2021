@@ -2,28 +2,40 @@ body {
   background-color: cadetblue
 }
 
-#top > h1 {
-  text-align: center;
-  background-color: aliceblue
-  margin: 8rem;
-
-
-}
+/* Navigation */
 
 ul {
   display: flex;
-  justify-content: space-around
+  justify-content: space-evenly;
+  overflow: hidden;
 }
+
+/* 2021 Chameleon Stories */
 
 #bottom > h2 {
   text-align: center;
   border-top: solid 1px black;
   padding: 2rem 2rem 4rem;
   margin: 0rem 0rem;
+  font-family: fantasy;
 }
 
 
+/* Together we can break the stigma */
 
+#opening > {
+  position: absolute;
+  width: 1058px;
+  height: 58px;
+  left: 349px;
+  top: 206px;
+
+  font-family: Saira;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 87px;
+}
 
 
 
