@@ -1,13 +1,13 @@
-body {
-  background-color: cadetblue
+/* Chameleon Stories' title */
+
+#title > h1 {
+  text-align: center;
+  font-family: fantasy;
+
 }
 
-/* Navigation */
-
-ul {
-  display: flex;
-  justify-content: space-evenly;
-  overflow: hidden;
+body {
+  background-color: cadetblue
 }
 
 /* 2021 Chameleon Stories */
@@ -20,22 +20,42 @@ ul {
   font-family: fantasy;
 }
 
-
 /* Together we can break the stigma */
 
-#opening > {
-  position: absolute;
-  width: 1058px;
-  height: 58px;
-  left: 349px;
-  top: 206px;
-
-  font-family: Saira;
+#opening > p {
+  text-align: right;
+  font-family: fantasy;
   font-style: normal;
   font-weight: bold;
-  font-size: 55px;
+  font-size: 35px;
   line-height: 87px;
 }
+
+/* Style the top navigation bar */
+ul {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navigation */
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+/* nav hover color */
+ul a:hover {
+  background-color: #ddd;
+  color: cadetblue;
+}
+
+
+
 
 
 

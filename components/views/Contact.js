@@ -4,8 +4,8 @@ export default (st) => `
 
 <div class="container">
     <div style="text-align:center">
-      <h2>Contact Us</h2>
-      <p>Please leave your feedback, or tell me how I did:</p>
+      <h2>Share Your Story</h2>
+      <p>Please submit your story below, these will be kept confidential:</p>
     </div>
     <div class="row">
       <div class="column">
@@ -29,7 +29,7 @@ export default (st) => `
     </div>
   </div>
   
-  <h4>This is a Demo Form</h4>
+  <h3>This is a Demo Form</h3>
   
   
  
