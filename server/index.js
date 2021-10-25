@@ -1,9 +1,18 @@
 const express = require("express");
+const mongoose = require('mongoose')
+
+
 //const server = http.createServer(() => {});
 
 // dotenv.config();
 
 const app = express();
+
+mongoose.connect(process.env.MONGODB);
+const db = mongoose.connection;
+// Connection String Below
+db.on('error', console.error.bind(console, 'Connection error:'));
+db.once('open', console.log.bind(console, 'Successfully opened connection to Mongo!'));
 
 const logging = (request, response, next) => {
     console.log(`${request.method} ${request.url} ${Date.now()}`);
