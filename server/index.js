@@ -17,11 +17,6 @@ const logging = (request, response, next) => {
     next();
   };
 
-// if (request.url === "/status" && request.method === "GET") {
-//   response.writeHead(200, { "Content-Type": "application/json" });
-//   response.write(JSON.stringify({ message: "Service healthy" }));
-//   response.end();
-// }
 
 // DO NOT ADD CORS TO SERVER INDEX.JS ITS A SECURITY RISK
 // CORS Middleware
@@ -56,5 +51,3 @@ app
 const PORT = process.env.PORT || 4040;
   app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 
-  // server.listen(4040);
-  // console.log("Listening on port 4040");
