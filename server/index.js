@@ -17,7 +17,6 @@ const logging = (request, response, next) => {
     next();
   };
 
-
 // DO NOT ADD CORS TO SERVER INDEX.JS ITS A SECURITY RISK
 // CORS Middleware
 const cors = (req, res, next) => {
@@ -46,7 +45,6 @@ app
   .post((request, response) => {
     response.json({requestBody: request.body});
   });
-
 
 const PORT = process.env.PORT || 4040;
   app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
