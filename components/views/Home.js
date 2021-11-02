@@ -5,12 +5,11 @@ const kelvinToFahrenheit = kelvinTemp =>
 
 
 export default (st) => `<h3>
-Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels
+Weather in Springfield ${kelvinToFahrenheit(st.weather.temp)}F, Feels
 like ${kelvinToFahrenheit(st.weather.feelsLike)}F
 </h3>
 
 <div id=opening>
 <p>Together we can break the stigma</p>
 </div>
-
 `;
