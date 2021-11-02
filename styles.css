@@ -61,6 +61,7 @@ body {
 
 
 
+
 /* CONTACT PAGE CSS STYLING !!!!!!!!!!!!!!!!! */
 * {
     box-sizing: border-box;
@@ -91,7 +92,7 @@ body {
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
-    background-color: teal;
+    background-color: rgb(153, 203, 212);
     padding: 10px;
   }
 

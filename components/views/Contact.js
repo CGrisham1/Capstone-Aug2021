@@ -14,22 +14,19 @@ export default (st) => `
       <div class="column">
         <form action="/action_page.php">
           <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Name">
+          <input type="text" id="fname" name="firstname" placeholder="First">
           <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Last name">
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="usa">USA</option>
+          <input type="text" id="lname" name="lastname" placeholder="Last">
           </select>
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="What are your thoughts" style="height:170px"></textarea>
+          <label for="story">Your Story</label>
+          <textarea id="subject" name="subject" placeholder="Where are you at on your journey?" style="height:170px"></textarea>
           <input type="submit" value="Submit">
         </form>
       </div>
     </div>
   </div>
   
-  <h3>This is a Demo Form</h3>
+  
   
   
  

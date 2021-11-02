@@ -5,7 +5,7 @@ const kelvinToFahrenheit = kelvinTemp =>
 
 
 export default (st) => `<h3>
-Weather in Springfield ${kelvinToFahrenheit(st.weather.temp)}F, Feels
+Weather in Springfield is ${kelvinToFahrenheit(st.weather.temp)}F, Feels
 like ${kelvinToFahrenheit(st.weather.feelsLike)}F
 </h3>
 
