@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose")
 const dotenv = require("dotenv");
-
+const posts = require("./routes/posts")
 dotenv.config();
 
 const app = express();
@@ -33,6 +33,7 @@ const cors = (req, res, next) => {
   next();
 };
 
+app.use("/posts", posts);
 app.use(express.json());
 app.use(logging);
 app.use(cors);
