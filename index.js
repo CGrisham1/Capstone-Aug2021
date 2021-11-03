@@ -6,6 +6,22 @@ import { capitalize } from "lodash";
 import dotenv from "dotenv";
 dotenv.config();
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //This is declaring a router
 const router = new Navigo(window.location.origin);
 
@@ -43,7 +59,6 @@ router.hooks({
   },
 });
 
-
 //Render Function
 function render(st) {
   document.querySelector("#root").innerHTML = `
@@ -56,8 +71,6 @@ function render(st) {
   router.updatePageLinks();
 
 }
-
-
 
 router
   .on({
