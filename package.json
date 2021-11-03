@@ -1,6 +1,7 @@
 {
   "name": "savvy-starter",
   "version": "1.0.0",
+  "engines": { "node": "12.16.1", "npm": "6.14.4" },
   "description": "",
   "main": "index.js",
   "scripts": {
