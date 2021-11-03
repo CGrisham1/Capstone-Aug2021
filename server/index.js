@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose")
 const dotenv = require("dotenv");
-const posts = require("./routes/posts")
+const posts = require("./routers/posts")
 dotenv.config();
 
 const app = express();
@@ -33,10 +33,11 @@ const cors = (req, res, next) => {
   next();
 };
 
-app.use("/posts", posts);
+
 app.use(express.json());
 app.use(logging);
 app.use(cors);
+app.use("/posts", posts);
 
 app
   .route("/status")
@@ -46,6 +47,14 @@ app
   .post((request, response) => {
     response.json({requestBody: request.body});
   });
+
+  app.route("/users/:id").get((request, response) => {
+    // express adds a "params" Object to requests
+    const id = request.params.id;
+    // handle GET request for post with an id of "id"
+    response.send(JSON.stringify({ user_id: id }));
+  });
+
 
 const PORT = process.env.PORT || 4040;
   app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
