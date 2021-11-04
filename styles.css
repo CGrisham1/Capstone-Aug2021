@@ -7,14 +7,18 @@
 }
 
 body {
-  background-color: cadetblue
+  background-color: rgb(104, 181, 204)
 }
 
 /* 2021 Chameleon Stories */
 #footer > h2 {
-  position: absolute;
+  position: relative;
+  margin-top: -180px;
+  height: 180px;
+  left: 0;
   bottom: 0;
   width: 100%;
+  /*background:#999;*/
   text-align: center;
   border-top: solid 1px black;
   padding: 2rem 2rem 4rem;
@@ -36,7 +40,7 @@ body {
 .nav-links {
   display: flex;
   justify-content: space-evenly;
-  background-color: cadetblue;
+  background-color: rgb(104, 181, 204);
   padding: 15px 20px;
   font-size: 25px;
 }
@@ -67,14 +71,15 @@ body {
     box-sizing: border-box;
   }
 
-  /* Style inputs for my Contact Us Section */
+  /* Style inputs for my Share your story Section */
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-family: fantasy;
   }
 
   input[type=submit] {
@@ -92,7 +97,7 @@ body {
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
-    background-color: rgb(153, 203, 212);
+    background-color: rgb(228, 224, 190);
     padding: 10px;
   }
 
