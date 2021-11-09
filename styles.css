@@ -6,8 +6,46 @@
   font-size: 35px;
 }
 
+#homeintro {
+  font-size: 20px;
+  margin-top: 25px;
+  padding: 1rem;  
+}
+
+#homeintro2 {
+  font-size: 19px;
+  padding: 1rem;
+}
+
+#weatherapi {
+font-family: fantasy;
+}
+
+.reslinks {
+  color: white;
+  position: relative;
+  padding: 50px 50px;
+  font-size: 20px;
+  font-weight: bold;
+
+  
+  display: inline-block;
+}
+
+#rp1 {
+  text-align: center;
+  font-family: fantasy;
+  
+}
+
 body {
   background-color: rgb(104, 181, 204)
+}
+
+#emptybottle {
+  position: relative;
+  width: 20%;
+  height: 28%;
 }
 
 /* 2021 Chameleon Stories */
@@ -101,7 +139,7 @@ body {
     padding: 10px;
   }
 
-  /* Create two columns that float next to each other */
+  /* two floating columns */
   .column {
     float: left;
     width: 50%;
@@ -109,14 +147,14 @@ body {
     padding: 20px;
   }
 
-  /* Clear floats after the columns */
+  /* Clear floats after columns,background color render */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  /* responsive layout */
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
