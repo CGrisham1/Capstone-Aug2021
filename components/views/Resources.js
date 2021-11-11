@@ -18,10 +18,4 @@ export default (st) => `
 
 
         <img src="https://images.unsplash.com/photo-1520732770642-f4d947ca9653?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVtcHR5JTIwYm90dGxlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" id="emptybottle">
-
-
-
-
-
-
 `;
